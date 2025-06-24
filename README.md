@@ -3,13 +3,17 @@
 This project implements a player re-identification system using YOLO for object detection and `boxmot`/`ByteTrack` for multi-object tracking. It processes a 15-second video (`15sec_input_720p.mp4`), detects every player, assigns unique IDs, and maintains those IDs when players leave and re-enter the frame. The output is saved as `output.mp4` with annotated bounding boxes and IDs.
 
 ---
-## Output Video
-Below is the output video showcasing the player re-identification results:
+## Player Re-Identification – Screenshots
 
-<video controls width="640" height="360">
-  <source src="output.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+The following frames are extracted from the processed football video. They demonstrate the player re-identification system using bounding boxes and consistent ID tracking across frames.
+
+## Screenshot-1
+![Frame 1](assets/Screenshot%201.png)
+
+## Screenshot-2
+![Frame 1](assets/Screenshot%202.png)
+## Screenshot-3
+![Frame 1](assets/Screenshot%203.png)
 
 ---
 
